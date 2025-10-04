@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
           hours++;
         }
         updateDisplay();
-      }, 10); // 10 ms tick (centiseconds)
+      }, 10);
     }
   }
 
@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
     milliseconds = seconds = minutes = hours = 0;
     lapCounter = 0;
     updateDisplay();
-    lapsList.innerHTML = ""; // clear laps
+    lapsList.innerHTML = "";
   }
 
   function recordLap() {
